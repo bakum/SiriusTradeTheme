@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 7.0.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_7_0_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>7.0.0+</version>
+	</compatibility>
+	<theme id="sirius-theme" name="Sirius-Theme">
+		<template-extension>ftl</template-extension>
+		<settings>
+			<setting configurable="true" key="parking-mode" type="checkbox" value="false"/>
+			<setting configurable="true" key="footer-address" type="text" value="Address line 1"></setting>
+			<setting configurable="true" key="footer-address-phone-enabled" type="checkbox" value="false"/>
+            <setting configurable="true" key="footer-address-phone" type="text" value="+38 050 1234567"></setting>
+            <setting configurable="true" key="footer-email" type="text" value="admin@domain.com"></setting>
+            <setting configurable="true" key="footer-company-name" type="text" value="Your company name"></setting>
+            <setting configurable="true" key="site-ga-id" type="text" value=""></setting>
+		</settings>
+	</theme>
+</look-and-feel>

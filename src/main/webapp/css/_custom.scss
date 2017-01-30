@@ -1,0 +1,30 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+#wrapper {
+    padding-bottom: 0;
+    padding-top: 7em;
+    position: relative;
+}
+
+.dialog-with-footer .button-holder.dialog-footer {
+    background-color: #FFF;
+    border-top: 1px solid #E5E5E5;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px 15px;
+    position: relative;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #banner .language-bar {
+      position: absolute;
+      right: 160px;
+      top: 0px; 
+    } 
+}
