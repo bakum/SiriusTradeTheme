@@ -27,6 +27,9 @@
     <!-- Fonts -->
     <link href="${css_folder}/css.css" rel="stylesheet" type="text/css">
     <link href="${css_folder}/css_002.css" rel="stylesheet" type="text/css">
+    <#if ga_enabled>
+    	<#include "${full_templates_path}/ga.ftl" />
+    </#if>
     <#else>	
 		<@liferay_util["include"] page=top_head_include />	
     </#if>
@@ -175,9 +178,6 @@
 
     <!-- JS Custom -->
     <script src="${javascript_folder}/custom.js"></script>
-    <#if ga_enabled>
-    	<#include "${full_templates_path}/ga.ftl" />
-    </#if>
 <#else>
 	<@liferay_util["include"] page=body_bottom_include />
 	<@liferay_util["include"] page=bottom_include />
